@@ -11,5 +11,8 @@ public class Application3 {
 
         int random1 = random.nextInt(101) - 50;
         System.out.println("random1 = " + random1);
+
+        int random2 = (int) (Math.random() * 101) - 50;
+        System.out.println("random2 = " + random2);
     }
 }
