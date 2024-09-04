@@ -5,10 +5,10 @@ public class Application5 {
     public static void main(String[] args) {
 
         int a = 10, b = 20, c = 30, d = 40;
-        double a1 = (double) a;
-        double b1 = (double) b;
-        double c1 = (double) c;
-        double d1 = (double) d;
+        double a1 =  a;
+        double b1 =  b;
+        double c1 =  c;
+        double d1 =  d;
 
 
         double max = ((a1 > b1) && (a1 > c1) && (a1 > d1)) ? a1 : ((b1 > a1) && (b1 > c1) && (b1 > d1)) ? b1 : ((c1 > a1) && (c1 > b1) && (c1 > d1)) ? c1 : ((d1 > a1) && (d1 > b1) && (d1 > c1)) ? d1 : a1;
