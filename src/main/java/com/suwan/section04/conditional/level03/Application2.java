@@ -33,21 +33,24 @@ public class Application2 {
         if(fruit.equals("apple")){
             name = "apple";
             price = 1000;
-            System.out.println(name + "의 가격은 " + price + "원 입니다.");
+
         } else if(fruit.equals("banana")){
             name = "banana";
             price = 3000;
-            System.out.println(name + "의 가격은 " + price + "원 입니다.");
+
         } else if(fruit.equals("melon")){
             name = "melon";
             price = 2000;
-            System.out.println(name + "의 가격은 " + price + "원 입니다.");
+
         } else if(fruit.equals("grape")){
             name = "grape";
             price = 5000;
-            System.out.println(name + "의 가격은 " + price + "원 입니다.");
+
         } else {
             System.out.println("준비된 상품이 없습니다.");
+            return; // return을 받으면 종료
         }
+
+        System.out.println(name + "의 가격은 " + price + "원 입니다.");
     }
 }
