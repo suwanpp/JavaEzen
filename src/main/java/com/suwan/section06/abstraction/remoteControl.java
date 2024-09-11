@@ -27,8 +27,4 @@ public class remoteControl {
     public void turnOff(){
         remoteControl.turnOff();
     }
-
-
-
-
 }

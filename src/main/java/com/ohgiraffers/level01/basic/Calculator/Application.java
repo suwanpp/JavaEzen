@@ -1,4 +1,4 @@
-package com.ohgiraffers.level01.basic;
+package com.ohgiraffers.level01.basic.Calculator;
 
 public class Application {
 
