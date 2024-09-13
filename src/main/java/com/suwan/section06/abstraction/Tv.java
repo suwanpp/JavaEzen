@@ -74,7 +74,7 @@ public class Tv {
                 System.out.println("티비가 꺼졌습니다.");
             }
         }else {
-            System.out.println("티비가 꺼져있는 상태입니다. ");
+            System.out.println("티비가 꺼져있는 상태입니다다다. ");
         }
     }
 }
